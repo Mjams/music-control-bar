@@ -50,7 +50,7 @@ body {
 }
 
 .time {
-
+  position: relative;
 }
 
 .time-bar {
@@ -80,10 +80,14 @@ body {
 /* END DON’T TOUCH ZONE */
 
 .time-lapsed {
+  position: absolute;
+  left: 0;
   font-size: .7rem;
 }
 
 .time-total {
+  position: absolute;
+  right: 0;
   font-size: .7rem;
 }
 
@@ -98,15 +102,18 @@ body {
 
 .control-shuffle {
   position: absolute;
-  left: 0;
+  left: 50px;
+  top: 0;
 }
 
 .control-list {
   position: absolute;
   right: 0;
+  top: 0;
 }
 
 .control-heart {
   position: absolute;
-  right: 0;
+  right: 1.5rem;
+  top: 0;
 }
